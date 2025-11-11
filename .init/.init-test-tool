@@ -1,0 +1,4 @@
+{
+    "command": "pytest",
+    "working_directory": "/home/kavia/workspace/code-generation/unified-cloud-resource-manager-185730-185788/BackendAPIService"
+}

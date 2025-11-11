@@ -7,6 +7,10 @@ Usage:
 
 Alternatively, using the explicit module path:
     uvicorn src.api.main:app --host 0.0.0.0 --port 3001
+
+Note:
+- Ensure the working directory is BackendAPIService or set PYTHONPATH=.
+  so that 'src.api.main' can be imported successfully.
 """
 
 # PUBLIC_INTERFACE
